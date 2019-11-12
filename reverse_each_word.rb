@@ -1,10 +1,12 @@
 def reverse_each_word(sentence1)
   # sentence1.each do|sentence1|
   #   puts words.reverse
-  String = sentence1
-   words = str.split(" ");
+   words = sentence1.split(" ");
+   new_sentence = []
+   words.each do |word|
   array.reverse(words);
-  return String.join(" ", words);
+  end
+   new_sentence.join(" ", words);
 
   # string.split.reverse.join(' ')
 end
