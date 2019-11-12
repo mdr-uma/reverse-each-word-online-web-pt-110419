@@ -4,7 +4,7 @@ def reverse_each_word(sentence1)
    words = sentence1.split(" ");
    new_sentence = []
    words.each do |word|
-  array.reverse(words);
+   sentence1.reverse(words);
   end
    new_sentence.join(" ", words);
 
