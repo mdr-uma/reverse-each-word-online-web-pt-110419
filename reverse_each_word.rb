@@ -3,5 +3,5 @@ def reverse_each_word(sentence1)
   #   puts words.reverse
   sentence1.split.reverse.join(' ')
 
-  
+
 end
